@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "label": "There's a new patient in the ward",
+    "time": 30
+  },
+  {
+    "id": 1,
+    "label": "Your presence is required in the ICU",
+    "time":60
+  },
+  {
+    "id": 2,
+    "label": "The new batch of medications have arrived",
+    "time": 40
+  },
+  {
+    "id": 3,
+    "label": "Your account was logged in from an unauthorised ip",
+    "time": 45
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "name": "Micheal",
+    "qualifications": "MBBS, MD",
+    "added": true,
+    "image": "http://medboard.b-cdn.net/images/doctor-1.jpg"
+  },
+  {
+    "id": 1,
+    "name": "Jennifer",
+    "qualifications": "MD",
+    "added": false,
+    "image": "http://medboard.b-cdn.net/images/doctor-2.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Adwerd",
+    "qualifications": "BMBS",
+    "added": true,
+    "image": "http://medboard.b-cdn.net/images/doctor-3.jpg"
+  },
+  {
+    "id": 3,
+    "name": "John Doe",
+    "qualifications": "MS, MD",
+    "added": true,
+    "image": "http://medboard.b-cdn.net/images/doctor-4.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Jordan",
+    "qualifications": "MBBS",
+    "added": false,
+    "image": "http://medboard.b-cdn.net/images/doctor-5.jpg"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "separator": true
+  },
+  {
+    "label": "Profile",
+    "icon": "pi pi-user"
+  },
+  {
+    "label": "Inbox",
+    "icon": "pi pi-envelope"
+  },
+  {
+    "label": "Account Settings",
+    "icon": "pi pi-cog"
+  },
+  {
+    "separator": true
+  },
+  {
+    "label": "Lock",
+    "icon": "pi pi-lock"
+  },
+  {
+    "label": "Logout",
+    "icon": "pi pi-power-off"
+  }
+]

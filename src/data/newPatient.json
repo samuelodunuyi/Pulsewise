@@ -1,0 +1,42 @@
+[
+    {
+        "id": 0,
+        "name":"Richard",
+        "email": "Richard288@gmail.com",
+        "contact": "+1-202-555-0875",
+        "disease": "Fever",
+        "image": "http://medboard.b-cdn.net/images/doctor-1.jpg"
+    },
+    {
+        "id": 1,
+        "name":"William",
+        "email": "William88@gmail.com",
+        "contact": "+1-232-655-7875",
+        "disease": "Eye",
+        "image":"http://medboard.b-cdn.net/images/doctor-4.jpg"
+    },
+    {
+        "id": 2,
+        "name":"John Doe",
+        "email": "JohnDoe323@gmail.com",
+        "contact": "+1-512-095-0875",
+        "disease": "Typhoid",
+        "image":"http://medboard.b-cdn.net/images/doctor-5.jpg"
+    },
+    {
+        "id": 3,
+        "name":"Martin",
+        "email": "Martin8@gmail.com",
+        "contact": "+1-302-655-8875",
+        "disease": "Cancer",
+        "image":"http://medboard.b-cdn.net/images/doctor-3.jpg"
+    },
+    {
+        "id": 4,
+        "name":"Robert",
+        "email": "Robert434@gmail.com",
+        "contact": "+1-247-905-0875",
+        "disease": "Diabetes",
+        "image":"http://medboard.b-cdn.net/images/doctor-8.jpg"
+    }
+]
