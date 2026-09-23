@@ -1,53 +1,45 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import { useCookies } from "vue3-cookies";
-import HomeView from '../views/HomeView.vue'
-import LoginView from '../views/LoginView.vue'
-import SignupView from '../views/SignupView.vue'
+import AppLayout from '@/layouts/AppLayout.vue'
+import { navItems } from '@/config/navigation'
+import { APP_NAME } from '@/config/brand'
 
-const { cookies } = useCookies()
+const pages = {
+  dashboard: () => import('@/pages/DashboardPage.vue'),
+  appointments: () => import('@/pages/AppointmentsPage.vue'),
+  patients: () => import('@/pages/PatientsPage.vue'),
+  doctors: () => import('@/pages/DoctorsPage.vue'),
+  reports: () => import('@/pages/ReportsPage.vue'),
+  departments: () => import('@/pages/DepartmentsPage.vue'),
+  schedules: () => import('@/pages/SchedulesPage.vue'),
+  payments: () => import('@/pages/PaymentsPage.vue'),
+  beds: () => import('@/pages/BedsPage.vue')
+}
+const Placeholder = () => import('@/pages/PlaceholderPage.vue')
+
+// App routes are generated from the sidebar config so the two never drift apart.
+const appRoutes = [
+  ...navItems.map((item) => ({
+    path: item.to.slice(1),
+    component: pages[item.page] ?? Placeholder,
+    meta: { title: item.title, icon: item.icon, description: item.description }
+  })),
+  { path: 'patients/:id', component: () => import('@/pages/PatientDetailPage.vue'), meta: { title: 'Patient record' } }
+]
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    {
-      path: '/home',
-      name: 'home',
-      component: HomeView,
-      meta: {
-        requiresAuth: true
-      }
-    },
-    {
-      path: '/',
-      name: 'login',
-      component: LoginView
-    },
-    {
-      path: '/signup',
-      name: 'signup',
-      component: SignupView
-    }
-  ]
+    { path: '/', component: AppLayout, children: appRoutes },
+    { path: '/login', component: () => import('@/pages/LoginPage.vue'), meta: { title: 'Sign in' } },
+    { path: '/signup', component: () => import('@/pages/SignupPage.vue'), meta: { title: 'Create account' } },
+    { path: '/home', redirect: '/' },
+    { path: '/:pathMatch(.*)*', redirect: '/' }
+  ],
+  scrollBehavior: () => ({ top: 0 })
 })
 
-router.beforeEach((to, from, next) => {
-  if (to.name === from.name) {
-    return next()
-  }
-  if (to.matched.some(record => record.meta.requiresAuth)) {
-    const jwt = cookies.get("jwt")
-    // Change back to !== null later
-    if (jwt == null) {
-      next({ path: "/" })
-    }
-    else {
-      next()
-    }
-  }
-  else {
-    next()
-  }
+router.afterEach((to) => {
+  document.title = to.meta.title ? `${to.meta.title} · ${APP_NAME}` : APP_NAME
 })
-
 
 export default router

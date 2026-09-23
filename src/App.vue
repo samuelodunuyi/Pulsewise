@@ -1,11 +1,9 @@
 <template>
-  <div class="font-Lato">
-    <RouterView />
-  </div>
+  <RouterView />
+  <Toaster />
 </template>
 
 <script setup>
 import { RouterView } from 'vue-router'
+import Toaster from '@/components/ui/Toaster.vue'
 </script>
-
-<style scoped></style>
