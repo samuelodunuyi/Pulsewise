@@ -1,35 +1,29 @@
-# medboard
+# Pulsewise
 
-This template should help get you started developing with Vue 3 in Vite.
+A hospital management dashboard: appointments, patients, doctors and reports. Built with Vue 3, Vite, Tailwind CSS, shadcn-style components (radix-vue) and Chart.js.
 
-## Recommended IDE Setup
+This is a front-end demo with no backend. The JSON files in `src/data/` seed the app, and every change you make (patients, appointments, beds, invoices, shifts and so on) is saved in the browser's localStorage, so it survives reloads. Use **Reset demo data** in the account menu to start over.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+## Setup
 
 ```sh
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+## Scripts
 
-```sh
-npm run build
-```
+| Command | What it does |
+|---|---|
+| `npm run dev` | Start the dev server with hot reload |
+| `npm run build` | Build for production into `dist/` |
+| `npm run preview` | Serve the production build locally |
+| `npm run lint` | Lint and auto-fix with ESLint |
 
-### Lint with [ESLint](https://eslint.org/)
+## Where things live
 
-```sh
-npm run lint
-```
+- `src/config/brand.js`: the app name
+- `src/config/navigation.js`: sidebar items (routes are generated from this)
+- `src/config/forms.js`: the quick-action forms (appointment, prescription, report)
+- `src/assets/main.css`: colour tokens for light and dark mode
+- `src/components/ui/`: base components (Button, Card, Dialog, and so on)
