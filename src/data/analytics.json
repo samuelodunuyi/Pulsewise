@@ -1,0 +1,59 @@
+{
+  "kpis": [
+    { "id": "appointments", "label": "Appointments", "value": 4973, "format": "number", "delta": 12.5, "icon": "calendar", "color": "chart-1", "series": [310, 340, 325, 380, 360, 410, 395, 430, 420, 465, 450, 498] },
+    { "id": "newPatients", "label": "New patients", "value": 650, "format": "number", "delta": 8.2, "icon": "userPlus", "color": "chart-2", "series": [42, 48, 45, 51, 49, 55, 53, 58, 54, 60, 62, 66] },
+    { "id": "revenue", "label": "Revenue", "value": 347300, "format": "currency", "delta": 4.1, "icon": "wallet", "color": "chart-5", "series": [24, 26, 25, 27, 29, 28, 30, 29, 31, 32, 31, 34] },
+    { "id": "waitTime", "label": "Avg. wait time", "value": 18, "format": "minutes", "delta": -6.3, "invert": true, "icon": "timer", "color": "chart-3", "series": [26, 25, 25, 24, 23, 23, 22, 21, 21, 20, 19, 18] }
+  ],
+  "patientVolume": {
+    "7d": {
+      "labels": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "current": [182, 204, 196, 228, 241, 156, 132],
+      "previous": [170, 188, 190, 201, 214, 149, 128]
+    },
+    "30d": {
+      "labels": ["Wk 1", "Wk 2", "Wk 3", "Wk 4", "Wk 5"],
+      "current": [1180, 1265, 1310, 1402, 1388],
+      "previous": [1090, 1150, 1204, 1236, 1290]
+    },
+    "12m": {
+      "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      "current": [3820, 3610, 4050, 4210, 4390, 4280, 4620, 4870, 5010, 5240, 5180, 5460],
+      "previous": [3410, 3380, 3620, 3790, 3860, 3940, 4120, 4210, 4380, 4450, 4560, 4700]
+    }
+  },
+  "admissions": {
+    "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep"],
+    "icu": [120, 132, 118, 141, 150, 138, 162, 171, 158],
+    "opd": [640, 702, 688, 745, 790, 812, 846, 901, 880]
+  },
+  "revenue": {
+    "labels": ["Apr", "May", "Jun", "Jul", "Aug", "Sep"],
+    "collected": [248000, 262500, 271000, 289400, 301200, 318600],
+    "outstanding": [41000, 38500, 44200, 39800, 42600, 36900]
+  },
+  "outcomes": [
+    { "label": "Births", "value": 201434, "color": "chart-1" },
+    { "label": "Deaths", "value": 134693, "color": "chart-4" },
+    { "label": "Accidents", "value": 81525, "color": "chart-3" }
+  ],
+  "staff": [
+    { "label": "Doctors", "value": 124, "icon": "stethoscope", "color": "chart-1" },
+    { "label": "Nurses", "value": 312, "icon": "heartPulse", "color": "chart-4" },
+    { "label": "Pharmacists", "value": 38, "icon": "pill", "color": "chart-5" },
+    { "label": "Support staff", "value": 86, "icon": "users", "color": "chart-2" }
+  ],
+  "engagement": {
+    "labels": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "rows": [
+      { "label": "Weekday engagement", "value": 68.4, "previous": 53.3, "color": "chart-1", "series": [52, 55, 58, 57, 61, 64, 68] },
+      { "label": "Weekend engagement", "value": 41.2, "previous": 44.9, "color": "chart-4", "series": [46, 45, 44, 45, 43, 42, 41] }
+    ]
+  },
+  "timeline": [
+    { "title": "Patient admitted", "description": "Jennifer Ade admitted to Cardiology with chest pain; ECG ordered.", "dayOffset": -3, "icon": "bed", "color": "chart-2" },
+    { "title": "Treatment started", "description": "Beta-blockers started under Dr. Cristina Groves; vitals monitored hourly.", "dayOffset": -2, "icon": "stethoscope", "color": "chart-1" },
+    { "title": "Stable condition", "description": "Blood pressure back in range; moved from ICU to general ward.", "dayOffset": -1, "icon": "activity", "color": "chart-3" },
+    { "title": "Discharge planned", "description": "Follow-up visit booked; discharge summary pending sign-off.", "dayOffset": 0, "icon": "check", "color": "chart-5" }
+  ]
+}

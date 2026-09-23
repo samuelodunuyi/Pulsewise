@@ -1,62 +1,8 @@
 [
-  {
-    "id": 0,
-    "name": "Anny",
-    "image": "http://medboard.b-cdn.net/medboard/doctor-1.jpg",
-    "role": "Doctor"
-  },
-  {
-    "id": 1,
-    "name": "Jude",
-    "image": "http://medboard.b-cdn.net/medboard/doctor-2.jpg",
-    "role": "Surgeon"
-  },
-  {
-    "id": 2,
-    "name": "Jordan",
-    "image": "http://medboard.b-cdn.net/medboard/doctor-3.jpg",
-    "role": "Doctor"
-  },
-  {
-    "id": 3,
-    "name": "Micheal",
-    "image": "http://medboard.b-cdn.net/medboard/doctor-4.jpg",
-    "role": "Nurse"
-  },
-  {
-    "id": 4,
-    "name": "Anita",
-    "image": "http://medboard.b-cdn.net/medboard/doctor-5.jpg",
-    "role": "Doctor"
-  },
-  {
-    "id": 5,
-    "name": "Lily",
-    "image": "http://medboard.b-cdn.net/medboard/doctor-6.jpg",
-    "role": "Surgeon"
-  },
-  {
-    "id": 6,
-    "name": "Samuel",
-    "image": "http://medboard.b-cdn.net/medboard/doctor-7.jpg",
-    "role": "Surgeon"
-  },
-  {
-    "id": 7,
-    "name": "Ricky",
-    "image": "http://medboard.b-cdn.net/medboard/doctor-8.jpg",
-    "role": "Doctor"
-  },
-  {
-    "id": 8,
-    "name": "Venus",
-    "image": "http://medboard.b-cdn.net/medboard/doctor-9.jpg",
-    "role": "Nurse"
-  },
-  {
-    "id": 9,
-    "name": "Johan",
-    "image": "http://medboard.b-cdn.net/medboard/doctor-10.jpg",
-    "role": "Nurse"
-  }
+  { "id": 1, "name": "Dr. Cristina Groves", "specialty": "Cardiologist", "departmentId": 1, "qualifications": "MBBS, MD", "rating": 4.9, "operations": 1240, "patients": 3120, "experience": 14, "onTeam": true, "available": true, "avatar": "https://i.pravatar.cc/160?img=49", "bio": "Interventional cardiologist focused on minimally invasive heart procedures." },
+  { "id": 2, "name": "Dr. Richard Miles", "specialty": "Orthopedic Surgeon", "departmentId": 2, "qualifications": "MS, MD", "rating": 4.7, "operations": 980, "patients": 2410, "experience": 11, "onTeam": true, "available": true, "avatar": "https://i.pravatar.cc/160?img=13", "bio": "Sports medicine and joint reconstruction specialist." },
+  { "id": 3, "name": "Dr. Andrew Okafor", "specialty": "Neurologist", "departmentId": 3, "qualifications": "BMBS, PhD", "rating": 4.8, "operations": 410, "patients": 1870, "experience": 9, "onTeam": false, "available": false, "avatar": "https://i.pravatar.cc/160?img=14", "bio": "Treats epilepsy and chronic headache disorders; leads the stroke unit." },
+  { "id": 4, "name": "Dr. Priya Raman", "specialty": "Pediatrician", "departmentId": 4, "qualifications": "MBBS, DCH", "rating": 4.9, "operations": 150, "patients": 4020, "experience": 12, "onTeam": true, "available": true, "avatar": "https://i.pravatar.cc/160?img=10", "bio": "Newborn care and childhood respiratory conditions." },
+  { "id": 5, "name": "Dr. Hannah Lee", "specialty": "Dermatologist", "departmentId": 5, "qualifications": "MD", "rating": 4.6, "operations": 320, "patients": 2250, "experience": 8, "onTeam": false, "available": true, "avatar": "https://i.pravatar.cc/160?img=9", "bio": "Medical and surgical dermatology with a focus on inflammatory skin disease." },
+  { "id": 6, "name": "Dr. Samuel Deo", "specialty": "General Surgeon", "departmentId": 6, "qualifications": "MBBS, FRCS", "rating": 4.8, "operations": 1890, "patients": 2780, "experience": 17, "onTeam": true, "available": false, "avatar": "https://i.pravatar.cc/160?img=33", "bio": "Laparoscopic and emergency abdominal surgery; chief of surgery." }
 ]

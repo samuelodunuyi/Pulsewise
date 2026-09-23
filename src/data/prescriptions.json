@@ -1,0 +1,8 @@
+[
+  { "id": 1, "patientId": 1, "doctorId": 1, "medication": "Bisoprolol 5 mg", "dosage": "1 tablet once daily", "durationDays": 30, "notes": "Take in the morning.", "dayOffset": -2 },
+  { "id": 2, "patientId": 3, "doctorId": 3, "medication": "Sumatriptan 50 mg", "dosage": "1 tablet at migraine onset", "durationDays": 14, "notes": "Max 2 tablets in 24 hours.", "dayOffset": -1 },
+  { "id": 3, "patientId": 5, "doctorId": 4, "medication": "Salbutamol inhaler", "dosage": "2 puffs as needed", "durationDays": 60, "notes": "Use with spacer.", "dayOffset": -2 },
+  { "id": 4, "patientId": 7, "doctorId": 5, "medication": "Hydrocortisone cream 1%", "dosage": "Apply twice daily", "durationDays": 14, "notes": "", "dayOffset": -4 },
+  { "id": 5, "patientId": 8, "doctorId": 3, "medication": "Levetiracetam 500 mg", "dosage": "1 tablet twice daily", "durationDays": 90, "notes": "Do not stop abruptly.", "dayOffset": -5 },
+  { "id": 6, "patientId": 1, "doctorId": 1, "medication": "Aspirin 75 mg", "dosage": "1 tablet once daily", "durationDays": 90, "notes": "", "dayOffset": -2 }
+]

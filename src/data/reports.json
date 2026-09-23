@@ -1,0 +1,8 @@
+[
+  { "id": 1, "title": "Monthly patient summary", "type": "Patient report", "author": "Dr. Samuel Deo", "dayOffset": 0, "size": "2.4 MB", "status": "ready" },
+  { "id": 2, "title": "Cardiology outcomes Q3", "type": "Department report", "author": "Dr. Cristina Groves", "dayOffset": -1, "size": "1.1 MB", "status": "ready" },
+  { "id": 3, "title": "Pharmacy stock reconciliation", "type": "Inventory report", "author": "Pharmacy", "dayOffset": -1, "size": "—", "status": "on-hold" },
+  { "id": 4, "title": "Doctor-wise revenue", "type": "Financial report", "author": "Finance", "dayOffset": -2, "size": "860 KB", "status": "ready" },
+  { "id": 5, "title": "Bed occupancy trends", "type": "Operations report", "author": "Operations", "dayOffset": -4, "size": "—", "status": "on-hold" },
+  { "id": 6, "title": "Infection control audit", "type": "Compliance report", "author": "Quality team", "dayOffset": -6, "size": "3.2 MB", "status": "ready" }
+]

@@ -1,0 +1,6 @@
+[
+  { "id": 1, "title": "New patient admitted to Ward 4B", "minutesAgo": 12, "type": "patient", "read": false },
+  { "id": 2, "title": "Your presence is required in the ICU", "minutesAgo": 34, "type": "alert", "read": false },
+  { "id": 3, "title": "New batch of medications has arrived", "minutesAgo": 58, "type": "info", "read": false },
+  { "id": 4, "title": "Sign-in from an unrecognised IP address", "minutesAgo": 185, "type": "security", "read": true }
+]

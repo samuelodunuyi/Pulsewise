@@ -1,0 +1,16 @@
+[
+  { "id": 1, "patientId": 1, "doctorId": 1, "dayOffset": 0, "time": "09:00", "reason": "Follow-up ECG review", "status": "confirmed" },
+  { "id": 2, "patientId": 2, "doctorId": 2, "dayOffset": 0, "time": "11:30", "reason": "Knee pain assessment", "status": "pending" },
+  { "id": 3, "patientId": 3, "doctorId": 3, "dayOffset": 0, "time": "14:15", "reason": "Migraine follow-up", "status": "confirmed" },
+  { "id": 4, "patientId": 4, "doctorId": 1, "dayOffset": 1, "time": "10:00", "reason": "Arrhythmia monitoring", "status": "pending" },
+  { "id": 5, "patientId": 5, "doctorId": 4, "dayOffset": 1, "time": "15:45", "reason": "Asthma check-up", "status": "confirmed" },
+  { "id": 6, "patientId": 6, "doctorId": 2, "dayOffset": 2, "time": "08:30", "reason": "Cast removal", "status": "confirmed" },
+  { "id": 7, "patientId": 7, "doctorId": 5, "dayOffset": 3, "time": "13:00", "reason": "Eczema flare-up", "status": "pending" },
+  { "id": 8, "patientId": 8, "doctorId": 3, "dayOffset": 4, "time": "09:45", "reason": "EEG results", "status": "cancelled" },
+  { "id": 9, "patientId": 9, "doctorId": 4, "dayOffset": 6, "time": "16:30", "reason": "Post-tonsillitis review", "status": "confirmed" },
+  { "id": 10, "patientId": 10, "doctorId": 6, "dayOffset": 8, "time": "12:00", "reason": "Post-op wound check", "status": "pending" },
+  { "id": 11, "patientId": 11, "doctorId": 5, "dayOffset": 11, "time": "10:30", "reason": "Psoriasis treatment plan", "status": "confirmed" },
+  { "id": 12, "patientId": 12, "doctorId": 1, "dayOffset": -1, "time": "14:00", "reason": "Angina check", "status": "completed" },
+  { "id": 13, "patientId": 13, "doctorId": 6, "dayOffset": -2, "time": "09:15", "reason": "Pre-op assessment", "status": "completed" },
+  { "id": 14, "patientId": 14, "doctorId": 2, "dayOffset": -3, "time": "11:00", "reason": "Back pain consultation", "status": "cancelled" }
+]

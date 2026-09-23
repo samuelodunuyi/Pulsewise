@@ -1,0 +1,12 @@
+[
+  { "id": 1, "patientId": 1, "description": "Cardiology admission deposit", "amount": 1200, "issuedOffset": -10, "dueOffset": -3, "status": "paid", "method": "Card" },
+  { "id": 2, "patientId": 2, "description": "Orthopedic consultation", "amount": 180, "issuedOffset": -2, "dueOffset": 12, "status": "unpaid", "method": "Card" },
+  { "id": 3, "patientId": 3, "description": "Neurology consultation and MRI", "amount": 950, "issuedOffset": -20, "dueOffset": -5, "status": "unpaid", "method": "Insurance" },
+  { "id": 4, "patientId": 4, "description": "Holter monitoring (48h)", "amount": 420, "issuedOffset": -6, "dueOffset": 8, "status": "paid", "method": "Insurance" },
+  { "id": 5, "patientId": 6, "description": "Fracture treatment and cast", "amount": 640, "issuedOffset": -14, "dueOffset": -1, "status": "paid", "method": "Cash" },
+  { "id": 6, "patientId": 9, "description": "Tonsillitis treatment", "amount": 260, "issuedOffset": -9, "dueOffset": 5, "status": "paid", "method": "Insurance" },
+  { "id": 7, "patientId": 10, "description": "Appendectomy", "amount": 4800, "issuedOffset": -3, "dueOffset": 27, "status": "unpaid", "method": "Insurance" },
+  { "id": 8, "patientId": 12, "description": "Angina follow-up", "amount": 150, "issuedOffset": -25, "dueOffset": -11, "status": "refunded", "method": "Card" },
+  { "id": 9, "patientId": 13, "description": "Pre-operative assessment", "amount": 300, "issuedOffset": -2, "dueOffset": 12, "status": "unpaid", "method": "Bank transfer" },
+  { "id": 10, "patientId": 11, "description": "Phototherapy sessions (x4)", "amount": 520, "issuedOffset": -30, "dueOffset": -16, "status": "unpaid", "method": "Card" }
+]

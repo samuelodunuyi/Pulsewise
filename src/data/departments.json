@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "Cardiology", "headDoctorId": 1, "location": "Floor 3, East wing", "phone": "ext. 3100", "color": "chart-4", "description": "Heart and vascular care, cath lab and cardiac monitoring." },
+  { "id": 2, "name": "Orthopedics", "headDoctorId": 2, "location": "Floor 1, West wing", "phone": "ext. 1200", "color": "chart-2", "description": "Bones, joints and sports injuries, including fracture clinic." },
+  { "id": 3, "name": "Neurology", "headDoctorId": 3, "location": "Floor 2, East wing", "phone": "ext. 2300", "color": "chart-5", "description": "Brain, spine and nervous system disorders; stroke unit." },
+  { "id": 4, "name": "Pediatrics", "headDoctorId": 4, "location": "Floor 1, East wing", "phone": "ext. 1400", "color": "chart-3", "description": "Care for newborns, children and adolescents." },
+  { "id": 5, "name": "Dermatology", "headDoctorId": 5, "location": "Outpatient block B", "phone": "ext. 5500", "color": "chart-1", "description": "Medical and surgical treatment of skin conditions." },
+  { "id": 6, "name": "General Surgery", "headDoctorId": 6, "location": "Floor 4, Theatres", "phone": "ext. 4600", "color": "chart-2", "description": "Emergency and elective abdominal and laparoscopic surgery." }
+]
