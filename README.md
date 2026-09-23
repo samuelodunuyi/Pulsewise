@@ -19,11 +19,3 @@ npm run dev
 | `npm run build` | Build for production into `dist/` |
 | `npm run preview` | Serve the production build locally |
 | `npm run lint` | Lint and auto-fix with ESLint |
-
-## Where things live
-
-- `src/config/brand.js`: the app name
-- `src/config/navigation.js`: sidebar items (routes are generated from this)
-- `src/config/forms.js`: the quick-action forms (appointment, prescription, report)
-- `src/assets/main.css`: colour tokens for light and dark mode
-- `src/components/ui/`: base components (Button, Card, Dialog, and so on)
