@@ -10,5 +10,13 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 'latest'
+  },
+  globals: {
+    defineModel: 'readonly',
+    defineOptions: 'readonly'
+  },
+  rules: {
+    // shadcn-style primitives (Button, Card, Badge…) are intentionally single-word
+    'vue/multi-word-component-names': 'off'
   }
 }
